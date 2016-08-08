@@ -17,6 +17,7 @@
         "build": "./node_modules/.bin/babel src -d dist",
         "lint": "jscs index.js lib/*.js test/*.js",
         "prepublish": "npm run build",
+        "postinstall": "npm run prepublish",
         "test": "mocha",
         "doc": "./node_modules/.bin/jsdoc2md --src index.js lib/*.js -t README.handlebars > README.md",
         "cover": "./node_modules/.bin/istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec",
