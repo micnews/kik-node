@@ -3,4 +3,3 @@
 .travis.yml
 coverage/
 test/
-dist/
