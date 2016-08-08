@@ -1,6 +1,7 @@
 'use strict';
 
-const util = require('util-is');
+require('util-is');
+const util = require('util');
 const crypto = require('crypto');
 const Message = require('./lib/message.js');
 const Response = require('./lib/response.js')

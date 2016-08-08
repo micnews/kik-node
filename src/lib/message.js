@@ -1,6 +1,6 @@
 'use strict';
 
-const util = require('util-is');
+const util = require('util');
 const Response = require('./response.js');
 
 /**

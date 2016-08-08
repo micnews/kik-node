@@ -44,7 +44,7 @@ Check out the full API documentation for more advanced uses.
 ```javascript
 'use strict';
 
-let util = require('util-is');
+let util = require('util');
 let http = require('http');
 let Bot  = require('@kikinteractive/kik');
 

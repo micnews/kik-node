@@ -1,6 +1,6 @@
 'use strict';
 
-let util = require('util-is');
+let util = require('util');
 let rp = require('request-promise');
 
 const API_REMOTE_SCAN_CODE_CREATE = '/v1/codes';

@@ -1,6 +1,6 @@
 'use strict';
 
-const util = require('util-is');
+const util = require('util');
 
 class Response {
     static text(body) {
