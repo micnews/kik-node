@@ -3,7 +3,7 @@
 let nock = require('nock');
 let request = require('supertest');
 let assert = require('assert');
-let Bot = require('../index.js');
+let Bot = require('../dist/index.js');
 
 describe('Message construction', () => {
     it('of basic text message', () => {

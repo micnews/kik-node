@@ -9,7 +9,7 @@ const defer = typeof setImmediate === 'function' ? setImmediate : (fn) => {
     process.nextTick(fn.bind.apply(fn, arguments));
 };
 
-const Bot = require('../index.js');
+const Bot = require('../dist/index.js');
 
 const BOT_USERNAME = 'testbot';
 const BOT_API_KEY = '2042cd8e-638c-4183-aef4-d4bef6f01981';

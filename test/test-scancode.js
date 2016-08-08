@@ -3,7 +3,7 @@
 let nock = require('nock');
 let request = require('supertest');
 let assert = require('assert');
-let Bot = require('../index.js');
+let Bot = require('../dist/index.js');
 
 const BOT_USERNAME = 'testbot';
 const BOT_API_KEY = '2042cd8e-638c-4183-aef4-d4bef6f01981';
